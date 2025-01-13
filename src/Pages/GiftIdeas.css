@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam,wght@0,400..900;1,400..900');
+
+
+.explications {
+    font-family: 'Kufam', sans-serif;
+    margin-top: 48px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 48px;
+    text-align: center;
+    color: #58484E;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 2;
+}
+
+.exemple {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+}
+
+
+.img {
+    width: 325px;
+    height: 460px;
+    border-radius: 25px;
+}
+
+.img:not(:last-of-type) {
+    width: 350px;
+    height: 460px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Kufam', sans-serif;
+    width: 325px;
+    margin-top: 16px;
+    text-align: center;
+    color: #58484E;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.G1 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.imgb {
+    width: 350px;
+    height: 460px;
+    margin-top: 36px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}

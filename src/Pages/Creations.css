@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam,wght@0,400..900;1,400..900');
+
+
+.img1 {
+    width: 200px;
+    height: 300px;
+    border-radius: 25px;
+    margin-top: 48px;
+}
+
+.img2 {
+    width: 250px;
+    height: 400px;
+    border-radius: 25px;
+    margin-top: 48px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.yoshi {
+    display: flex;
+    align-items: center;
+   /* margin-left: 88px;*/
+}
+
+.cre {
+    margin-bottom: 48px;
+}
+
+.courses {
+    width: 86px;
+    height: 86px;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    font-family: 'Kufam', sans-serif;
+    font-size: 18px;
+    width: 350px;
+    margin-top: 16px;
+    text-align: center;
+    color: #58484E;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.Yoshi {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.explication {
+    margin-left: 136px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre {
+    font-family: 'Kufam', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    width: 350px;
+    color: #58484E;
+    line-height: 2;
+    font-weight: 550;
+}
+
+.Love {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.coeur1 {
+    margin-right: 160px;
+    width: 340px;
+    height: 392px;
+    border-radius: 50px;
+    margin-top: 48px;
+}
+
+.para1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Kufam', sans-serif;
+    font-size: 18px;
+    width: 500px;
+    margin-top: 16px;
+    text-align: center;
+    color: #58484E;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.explication1 {
+    margin-left: 200px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

@@ -1,0 +1,10 @@
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 5px;
+    width: 875px;
+    background-color: #89393A;
+    margin: 0 auto;
+}

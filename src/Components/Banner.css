@@ -1,0 +1,57 @@
+/* Assurez-vous d'ajouter cette règle pour tous les éléments */
+* {
+  box-sizing: border-box;
+}
+
+.white_rectangle {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 72px;
+    color: #89393A;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #392E32; 
+}
+
+.banner {
+    display: flex;
+    flex-direction: line;
+    padding-top: 6px;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-bottom: 36px;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+}
+
+/* Ajoutez du style aux images */
+.banner_images {
+    display: flex;  /* Aligne les images horizontalement */
+    gap: 24px;      /* Espacement entre les images */
+    margin-top: 20px;
+    /*margin-left: 200px;*/
+  }
+  
+  .banner_image_1_4 {
+    width: 250px;  /* Ajustez la taille des images */
+    height: 250px;  /* Pour avoir des images carrées, sinon ajustez selon les proportions */
+    border-radius: 140px;  /* Pour rendre l'image ronde */
+  }
+  
+  .banner_image_2_3 {
+    border-radius: 50px; 
+    width: 175px;
+    height: 250px;
+  }

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam,wght@0,400..900;1,400..900');
+
+
+.explications {
+    font-family: 'Kufam', sans-serif;
+    margin-top: 48px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 48px;
+    text-align: center;
+    color: #58484E;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 2;
+}
+
+.reseaux {
+    width: 100%;
+    height: 510px;
+    background-color: rgb(136, 122, 129, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 350px;
+    height: 460px;
+    margin-right: 24px;
+    margin-left: 24px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img:not(:last-of-type) {
+    width: 350px;
+    height: 460px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pres {
+    font-family: 'Kufam', sans-serif;
+    margin-top: 48px;
+    font-size: 18px;
+    height: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.texte {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Kufam', sans-serif;
+    font-size: 18px;
+    width: 600px;
+    margin-top: 48px;
+    margin-left: 24px;
+    margin-right: 24px;
+    color: #58484E;
+    font-weight: 500;
+    line-height: 30px;
+    box-sizing: border-box; 
+}
+
+.imgb {
+    width: 350px;
+    height: 460px;
+    margin-top: 36px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

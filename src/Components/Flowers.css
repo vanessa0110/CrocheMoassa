@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam,wght@0,400..900;1,400..900');
+
+.flowers {
+    margin-left: 210px;
+    width: 340px;
+    height: 392px;
+    border-radius: 50px;
+    margin-top: 48px;
+}
+
+
+.courses {
+    margin-top: 48px;
+    width: 86px;
+    height: 86px;
+}
+
+.parag {
+    display: flex;
+    justify-content: center;
+    font-family: 'Kufam', sans-serif;
+    font-size: 18px;
+    width: 550px;
+    margin-top: 16px;
+    text-align: center;
+    color: #58484E;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.Flowers {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.explications {
+    margin-right: 90px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre {
+    font-family: 'Kufam', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    width: 350px;
+    color: #58484E;
+    line-height: 2;
+    font-weight: 550;
+}
+
+.Flowers1 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.explications1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flowers1 {
+    width: 340px;
+    height: 392px;
+    border-radius: 50px;
+    margin-top: 48px;
+}
+
+.explications2 {
+    margin-left: 290px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
