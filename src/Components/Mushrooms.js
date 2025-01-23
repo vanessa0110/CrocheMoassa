@@ -8,25 +8,45 @@ import champi3 from '../Image/champi3.jpeg';
 
 
 const Mushrooms = () => {
-    return(
-        <div>
-            <div className='Mush'>
-                <div className='mush'>
-                    <img src={champi1} alt = "champi1" className ="image1" />
-                    <img src={champi2} alt = "champi2" className ="image2" />
-                    <img src={champi3} alt = "champi3" className ="image1" />
+    const mushrooms = [
+        { src: champi1, alt: "Champignons colorés dans la forêt" },
+        { src: champi2, alt: "Champignons sur un tronc d'arbre" },
+        { src: champi3, alt: "Champignons sur une terrasse" }
+    ];
+
+    return (
+        <div className="mushroom-container">
+            <div className="content-wrapper">
+                <div className="image-gallery">
+                    {mushrooms.map((mushroom, index) => (
+                        <img 
+                            key={index}
+                            src={mushroom.src}
+                            alt={mushroom.alt}
+                            className="gallery-image"
+                            loading="lazy"
+                        />
+                    ))}
                 </div>
-                <div className='explication'>
-                    <img src={champi} alt = "" className ="courses" />
-                    <div className='title'>Récoltes Forestières</div>
-                    <div className='paragr'>Lors d'une promenade dans les bois à la recherche de   
-                        <br/>champignons, j'ai pensé que ça pouvait être une bonne
-                        <br/>idée de créer la famille champignon : Bolet, Bise, Amanite
-                        <br/>tue-mouches. On peut même inventer des nouvelles variétés.</div>
+                <div className="divider" />
+                <div className="text-content">
+                    <img 
+                        src={champi} 
+                        alt="Icône de champignon"
+                        className="icon"
+                        width="64"
+                        height="64"
+                    />
+                    <h1 className="title">Récoltes Forestières</h1>
+                    <p className="description">
+                        Lors d'une promenade dans les bois à la recherche de 
+                        champignons, j'ai pensé que ça pouvait être une bonne
+                        idée de créer la famille champignon : Bolet, Bise, Amanite
+                        tue-mouches. On peut même inventer des nouvelles variétés.
+                    </p>
                 </div>
             </div>
         </div>
-        
     );
 };
 

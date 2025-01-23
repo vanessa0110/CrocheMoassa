@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@400;500;550&display=swap');
+
+.events-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.section-icon {
+    width: 86px;
+    height: 86px;
+    margin-bottom: 1rem;
+}
+
+.main-title {
+    font-family: 'Kufam', sans-serif;
+    font-size: 48px;
+    color: #58484E;
+    font-weight: 550;
+    margin: 0;
+}
+
+.section-container {
+    margin: 3rem 0;
+    padding: 2rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.easter-section {
+    background-color: #F0FFF4;
+    border: 1px solid #E2F5EA;
+}
+
+.halloween-section {
+    background-color: #FFF7ED;
+    border: 1px solid #FFE4CC;
+}
+
+.christmas-section {
+    background-color: #FFF5F5;
+    border: 1px solid #FFE5E5;
+}
+
+.section-text {
+    margin: 2rem 0;
+}
+
+.section-title {
+    font-family: 'Kufam', sans-serif;
+    font-size: 36px;
+    margin-bottom: 1rem;
+}
+
+.easter-section .section-title {
+    color: #2F855A;
+}
+
+.halloween-section .section-title {
+    color: #C05621;
+}
+
+.christmas-section .section-title {
+    color: #89393A;
+}
+
+.section-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #392E32;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image-gallery {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.content-images {
+    width: clamp(280px, 30vw, 340px);
+    height: auto;
+    aspect-ratio: 340/392;
+    border-radius: 50px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.content-images:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 36px;
+    }
+
+    .section-container {
+        padding: 1.5rem;
+        margin: 2rem 0;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .section-description {
+        font-size: 16px;
+    }
+
+    .image-gallery {
+        gap: 1rem;
+    }
+
+    .content-images {
+        width: calc(100% - 2rem);
+        max-width: 340px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-container {
+        padding: 1rem;
+    }
+
+    .main-title {
+        font-size: 32px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .content-images {
+        width: 100%;
+    }
+}
+

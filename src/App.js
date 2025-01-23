@@ -7,6 +7,7 @@ import GiftIdeas from './Pages/GiftIdeas';
 import Contact from './Pages/Contact';
 import ScrollToTop from './Components/ScrollToTop';
 
+
 const App = () => {
   return (
     <Router>

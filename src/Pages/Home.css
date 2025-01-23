@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kufam,wght@0,400..900;1,400..900');
 
-
 .explications {
     font-family: 'Kufam', sans-serif;
-    margin-top: 48px;
-    margin-left: 110px;
-    margin-right: 110px;
-    margin-bottom: 48px;
+    margin: 48px auto;
+    padding: 0 20px;
+    max-width: 1200px;
     text-align: center;
     color: #58484E;
     font-weight: 500;
@@ -16,42 +14,36 @@
 
 .reseaux {
     width: 100%;
-    height: 510px;
+    min-height: 510px;
     background-color: rgb(136, 122, 129, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 24px;
 }
 
 .img {
     width: 350px;
     height: 460px;
-    margin-right: 24px;
-    margin-left: 24px;
     border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.img:not(:last-of-type) {
-    width: 350px;
-    height: 460px;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    object-fit: cover;
 }
 
 .pres {
     font-family: 'Kufam', sans-serif;
-    margin-top: 48px;
-    font-size: 18px;
-    height: 510px;
+    margin: 48px 0 80px;
+    padding: 0 20px;
+    min-height: 510px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 80px;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .texte {
@@ -61,22 +53,70 @@
     text-align: center;
     font-family: 'Kufam', sans-serif;
     font-size: 18px;
-    width: 600px;
-    margin-top: 48px;
-    margin-left: 24px;
-    margin-right: 24px;
+    max-width: 600px;
+    width: 100%;
     color: #58484E;
     font-weight: 500;
     line-height: 30px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .imgb {
     width: 350px;
     height: 460px;
-    margin-top: 36px;
     border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+    object-fit: cover;
+}
+
+/* Media queries pour les tablettes */
+@media screen and (max-width: 1024px) {
+    .explications {
+        font-size: 20px;
+        line-height: 1.8;
+        margin: 36px auto;
+    }
+    
+    .img, .imgb {
+        width: 300px;
+        height: 400px;
+    }
+}
+
+/* Media queries pour les mobiles */
+@media screen and (max-width: 768px) {
+    .explications {
+        font-size: 18px;
+        line-height: 1.6;
+        margin: 24px auto;
+    }
+    
+    .img, .imgb {
+        width: 280px;
+        height: 380px;
+    }
+    
+    .texte {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .pres {
+        margin: 24px 0 40px;
+    }
+}
+
+/* Media queries pour les petits mobiles */
+@media screen and (max-width: 480px) {
+    .explications {
+        font-size: 16px;
+        margin: 20px auto;
+    }
+    
+    .img, .imgb {
+        width: 250px;
+        height: 340px;
+    }
 }

@@ -1,85 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Kufam,wght@0,400..900;1,400..900');
 
-.flowers {
-    margin-left: 210px;
-    width: 340px;
-    height: 392px;
-    border-radius: 50px;
-    margin-top: 48px;
+/* Créer un nouveau fichier shared-styles.css pour les styles communs */
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3rem;
+    gap: 2rem; /* Remplace les marges fixes entre les éléments */
+    padding: 0 1rem;
 }
 
+.image-gallery {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-.courses {
-    margin-top: 48px;
+.content-image {
+    width: clamp(280px, 30vw, 340px);
+    height: auto;
+    aspect-ratio: 340/392; /* Maintient les proportions */
+    border-radius: 50px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 550px;
+    flex: 1;
+}
+
+.section-icon {
     width: 86px;
     height: 86px;
+    margin-bottom: 1rem;
 }
 
-.parag {
-    display: flex;
-    justify-content: center;
+.section-title {
+    font-family: 'Kufam', sans-serif;
+    font-size: clamp(32px, 4vw, 48px);
+    color: #58484E;
+    font-weight: 550;
+    margin: 1rem 0;
+}
+
+.section-description {
     font-family: 'Kufam', sans-serif;
     font-size: 18px;
-    width: 550px;
-    margin-top: 16px;
     text-align: center;
     color: #58484E;
     line-height: 2;
     font-weight: 500;
 }
 
-.Flowers {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    width: 100%;
-    margin-bottom: 48px;
-}
-
-.explications {
-    margin-right: 90px;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.titre {
-    font-family: 'Kufam', sans-serif;
-    text-align: center;
-    font-size: 48px;
-    width: 350px;
-    color: #58484E;
-    line-height: 2;
-    font-weight: 550;
-}
-
-.Flowers1 {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    width: 100%;
-    margin-bottom: 48px;
-}
-
-.explications1 {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.flowers1 {
-    width: 340px;
-    height: 392px;
-    border-radius: 50px;
-    margin-top: 48px;
-}
-
-.explications2 {
-    margin-left: 290px;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}

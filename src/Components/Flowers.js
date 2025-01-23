@@ -6,47 +6,81 @@ import fleur1 from '../Image/flow.jpeg';
 import fleur2a from '../Image/flow1.jpeg';
 import fleur2b from '../Image/flow2.jfif';
 import fleur3 from '../Image/flow3.jpeg';
-
+import fleur4a from '../Image/lys2.jpg';
+import fleur4b from '../Image/lys3.jpg';
 
 const Flowers = () => {
-    return(
+    return (
         <div>
-            <div className='Flowers'>
-                <div className='explications'>
-                    <img src={fleur} alt = "" className ="courses" />
-                    <div className='titre'>Fleurs</div>
-                    <div className='parag'>Lors d'un pique nique dans un parc avec mon compagnon
-                        <br/>et entouré de marguerites j'ai voulu apprendre à mon compagnon
-                        <br/>ma passion pour le crochet. Simple et efficace pour
-                        <br/>mettre un peu de couleurs dans votre intérieur.</div>
+            {/* Première section */}
+            <section className="section-container">
+                <div className="section-text">
+                    <img src={fleur} alt="" className="section-icon" />
+                    <h2 className="section-title">Fleurs</h2>
+                    <p className="section-description">
+                        Lors d'un pique nique dans un parc avec mon compagnon
+                        et entouré de marguerites j'ai voulu apprendre à mon compagnon
+                        ma passion pour le crochet. Simple et efficace pour
+                        mettre un peu de couleurs dans votre intérieur.
+                    </p>
                 </div>
-                <div className='flower'>
-                    <img src={fleur1} alt = "fleur1" className ="flowers" />
+                <div className="image-gallery">
+                    <img src={fleur1} alt="fleur1" className="content-image" />
                 </div>
-            </div>
+            </section>
 
-            <div className='Flowers1'>
-                <img src={fleur2a} alt = "fleur1" className ="flowers1" />
-                <div className='explications1'>
-                    <div className='parag'> Pendant la saison des tournesols, ils ne durent pas 
-                        <br/>dans le temps si vous voulez les cueillir. Une solution 
-                        <br/>s'offre à vous avec le pot de tournesols éternels !</div>
+            {/* Deuxième section */}
+            <section className="section-container">
+                <div className="image-gallery">
+                    <img src={fleur2a} alt="tournesol 1" className="content-image" />
                 </div>
-                <img src={fleur2b} alt = "fleur1" className ="flowers1" />
-            </div>
-
-            <div className='Flowers'>
-                <img src={fleur3} alt = "fleur2" className ="flowers1" />
-                <div className='explications2'>
-                    <div className='parag'>Une nouvelle déclinaison des tulipes qui peuvent sécher 
-                        <br/>rapidement dans vos vases. En voici une option éternelle 
-                        <br/>qui sera prête à mettre en couleur
-                        <br/>vos intérieurs, même en hors-saison.</div>
+                <div className="section-text">
+                    <p className="section-description">
+                        Pendant la saison des tournesols, ils ne durent pas 
+                        dans le temps si vous voulez les cueillir. Une solution 
+                        s'offre à vous avec le pot de tournesols éternels !
+                    </p>
                 </div>
-            </div>
-        </div>  
+                <div className="image-gallery">
+                    <img src={fleur2b} alt="tournesol 2" className="content-image" />
+                </div>
+            </section>
 
+            {/* Troisième section */}
+            <section className="section-container">
+                <div className="image-gallery">
+                    <img src={fleur4a} alt="fleur4a" className="content-image" />
+                </div>
+                <div className="section-text">
+                    <p className="section-description">
+                        L'une des créations pour laquelle j'ai pris le plus de
+                        plaisir à réaliser est les lys. Cela fait plaisir 
+                        lorsqu'à chaque étape de la conception on visualise 
+                        beaucoup mieux le projet.
+                    </p>
+                </div>
+                <div className="image-gallery">
+                    <img src={fleur4b} alt="fleur4b" className="content-image" />
+                </div>
+            </section>
+            
+            {/* Quatrième section */}
+            <section className="section-container">
+                <div className="image-gallery">
+                    <img src={fleur3} alt="fleur3" className="content-image" />
+                </div>
+                <div className="section-text">
+                    <p className="section-description">
+                        Une nouvelle déclinaison des tulipes qui peuvent sécher 
+                        rapidement dans vos vases. En voici une option éternelle 
+                        qui sera prête à mettre en couleur
+                        vos intérieurs, même en hors-saison.
+                    </p>
+                </div>
+            </section>
+        </div>
     );
 };
+
 
 export default Flowers;
