@@ -53,19 +53,19 @@ const Events = () => {
             </section>     
 
             {/* Noël - Section améliorée */}
-            <section className="section-container christmas-section">
-                <div className="text-center">
-                    <h4 className="section-title">Noël</h4>
-                    <p className="section-description">
-                    C'est la meilleure période de l'année et j'ai pu m'amuser à faire 
-                    de multiples créations en passant par les gnômes, le sapin, 
-                    le flocon de neige ou bien les boules de Noël.
+            <section className="christmas-section">
+                <div className="christmas-header">
+                    <h4 className="christmas-title">Noël</h4>
+                    <p className="christmas-description">
+                        C'est la meilleure période de l'année et j'ai pu m'amuser à faire 
+                        de multiples créations en passant par les gnômes, le sapin, 
+                        le flocon de neige ou bien les boules de Noël.
                     </p>
                 </div>
-                <div className="image-grid">
-                    <img src={noel1} alt="Sapin de Noël" className="content-images" />
-                    <img src={noel2} alt="Boules de Noël" className="content-images" />
-                    <img src={noel3} alt="Décorations de Noël" className="content-images" />
+                <div className="christmas-gallery">
+                    <img src={noel1} alt="Sapin de Noël" className="christmas-image" />
+                    <img src={noel2} alt="Boules de Noël" className="christmas-image" />
+                    <img src={noel3} alt="Décorations de Noël" className="christmas-image" />
                 </div>
             </section>
         </div>

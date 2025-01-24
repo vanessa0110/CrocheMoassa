@@ -147,3 +147,89 @@
     }
 }
 
+/* Nouveaux styles pour les sections */
+.section-container {
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+/* Styles spécifiques pour Noël */
+.christmas-section {
+    background-color: #FFF5F5;
+    border-radius: 25px;
+    padding: 2rem;
+    margin: 3rem 0;
+}
+
+.christmas-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.christmas-title {
+    font-family: 'Kufam', sans-serif;
+    font-size: 36px;
+    color: #89393A;
+    margin-bottom: 1rem;
+}
+
+.christmas-description {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #392E32;
+}
+
+.christmas-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.christmas-image {
+    width: clamp(250px, 25vw, 300px);
+    height: 392px;
+    aspect-ratio: 1/1;
+    border-radius: 25px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.christmas-image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 36px;
+    }
+
+    .event-title {
+        font-size: 32px;
+    }
+
+    .event-description {
+        font-size: 16px;
+    }
+
+    .christmas-title {
+        font-size: 28px;
+    }
+
+    .christmas-gallery {
+        gap: 1rem;
+    }
+
+    .christmas-image {
+        width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .christmas-image {
+        width: 100%;
+    }
+}
